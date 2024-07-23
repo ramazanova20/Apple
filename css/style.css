@@ -1,0 +1,1115 @@
+:root {
+    --black: #212529;
+    --darkblue: #0071E3;
+    --white: #fff;
+    --gray: #F2F2F2;
+    --blue: #2997FE;
+    --azure: #F9F9F9;
+}
+
+.txtBlue {
+    color: var(--blue);
+}
+
+.txtBlack {
+    color: var(--black);
+}
+
+.txtDarkblue {
+    color: var(--darkblue);
+}
+.txtWhite{
+    color: var(--white);
+}
+.bgBlack {
+    background-color: var(--black);
+}
+
+.bgWhite {
+    background-color: var(--white);
+}
+
+.bgGray {
+    background-color: var(--gray);
+}
+
+.bgDarkblue {
+    background-color: var(--darkblue);
+}
+.bgAzure{
+    background-color: var(--azure);
+}
+/* HEADERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+HEADERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+HEADERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+HEADERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+HEADERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR */
+.iconHeader{
+    text-decoration: none;
+}
+.iconHeader a{
+   padding-right:10px ;
+}
+
+.iconHeader{
+    display: none;
+}
+.mainNav{
+    display: flex;
+    justify-content: space-around;
+    padding: 10px;
+    margin: 0;
+}
+.mainNav #menu1{
+    display: none;
+}
+ input{
+    display: none;
+ }
+.logoHeader a{
+    font-size: 20px;
+    color: #000;
+    text-decoration: none;
+}
+.phoneIcons{
+    display: flex;
+    align-items: center;
+    overflow-x: scroll;
+    scrollbar-width: none;
+    overflow-y: hidden;
+    background-color: #fff;
+}
+.phoneSlides{
+    margin: 0 12px;
+    padding: 10px;
+    text-align: center;
+}
+.phoneSlides img{
+    margin: 0 10px;
+    height: 45px;
+    width: 60px;
+}
+.menuMobile1{
+    z-index: 1;
+    padding: 20px;
+    display: none;
+    position: fixed;
+
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #f2f2f2;
+}
+.menuMobile1 label{
+   display: flex;
+   justify-content: flex-end;
+   margin: 0 0 20px 0;
+}
+.menuMobile1 label i{
+  font-size: 15px;
+}
+label a{
+    padding-right:10px ;
+ }
+input[type="checkbox"]:checked~div {
+    display: flex;
+    flex-direction: column;
+}
+.menuMob{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0 0 10px;
+    padding: 0;
+    align-items: center;
+    
+    transition: .5s ease;
+    margin: 0 10px;
+}
+.menuMob #menu li a {
+    color: #000000cc;
+    font-weight: 600;
+    transition: .5s;
+    font-size: 1.3em;
+}
+.menuMob #menu li {
+    margin: 0 0 20px 0;
+    padding: 0 0 0 30px;
+}
+.menuMob #menu {
+    padding-left: 10px;
+}
+.Phoneshop{
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.Phoneshop p{
+    font: 1.3em bold Arial Helvetica, sans-serif;
+    padding-top: 20px;
+    text-align: center;
+}
+.Phoneshop .fia a{
+    font: 1.3em bold Arial Helvetica, sans-serif;
+    text-decoration: none;
+}
+.Phoneshop .fia{
+    text-align: center;
+    margin-bottom: 10px;
+}
+/* ........................ */
+#btn {
+    font: 1em Arial, Helvetica, sans-serif;
+    width: 60px;
+    height: 35px;
+    border: 1px solid var(--blue);
+    border-radius: 30px;
+    color: var(--white);
+    padding: 5px 15px;
+
+}
+
+.titanium {
+    background-color: #000;
+}
+
+.titanium h6 {
+    font: 2em Arial, Helvetica, sans-serif;
+    color: #8B887E;
+    margin: 0 0 8px;
+}
+
+.titanium span {
+    font: .75em Arial, Helvetica, sans-serif;
+    color: #bf4800;
+    padding: 30px 0 0;
+}
+
+.titanium p {
+    font: 1em Arial, Helvetica bold, sans-serif;
+    padding: 50px 0;
+    color: #f5f5f7;
+}
+
+.titanium a {
+    font: 1.2em Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+    text-decoration: none;
+}
+
+#picTit {
+    background: url("../img/headline_titanium.jpg") center/contain no-repeat;
+    margin: 20px 0;
+    height: 45px;
+    width: 100%;
+}
+
+
+.newphoria h2 {
+    font: 2em Arial, Helvetica, sans-serif;
+    margin: 0 0 8px;
+}
+
+.newphoria h3 {
+    font: 1.5em Arial, Helvetica, sans-serif;
+    margin: 0 0 8px;
+}
+
+.newphoria span {
+    font: 1em Arial, Helvetica, sans-serif;
+    color: #bf4800;
+}
+
+.newphoria p {
+    font: 1em Arial, Helvetica bold, sans-serif;
+    margin: 0 138px 16px;
+}
+
+#phoneTit {
+    background: url("../img/titanium.jpg") center/contain no-repeat;
+    height: 50vh;
+    width: 100%;
+}
+
+#phoneNewph {
+    background: url("../img/hero_iphone.jpg") center/cover no-repeat;
+    height: 35vh;
+    margin: 10px 0;
+    width: 100%;
+}
+.loveTop h2 {
+    font: 2em Arial, Helvetica, sans-serif;
+    margin: 0 0 8px;
+    color: #1E3791;
+}
+
+#img3dene {
+    background: url("../img/3dene.png") center/contain no-repeat;
+    height: 100vh;
+    margin: 10px 0;
+    /* max-width: 100%; */
+}
+
+.titanium, .newphoria, .tour, .tourText, .ios17, .forYou, .phone, .love, .loveTop, .super, .makePhone, .lastCard1, .lastCard2, .privacy, .whyApple, .oneMore, .txtMore, .shop, .savePhone, .rowShop  {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.tourTop h2 {
+    font: 2em Arial, Helvetica, sans-serif;
+    margin: 0 0 8px;
+}
+
+.tourTop h6 {
+    font: 2em Arial, Helvetica, sans-serif;
+    margin: 0 0 8px;
+}
+
+.tourBottom {
+    background: url("../img/guided_tour.jpg") center/cover no-repeat;
+    height: 50vh;
+    width: 100%;
+}
+.tourBottom .tourText {
+    display: none;
+}
+
+.phoneText {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.iosBottom {
+    background: url("../img/ios17.jpg") center/cover no-repeat;
+    height: 40vh;
+    width: 100%;
+}
+.iosBottom .iosText {
+    display: none;
+}
+.iosText {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.phoneBottom {
+    background: url("../img/phones1.jpg") center/cover no-repeat;
+    height: 80vh;
+    width: 100%;
+}
+.phoneBottom .phoneText {
+    display: none;
+}
+
+.forYou a {
+    font: 1.2em Arial, Helvetica, sans-serif;
+    padding: 16px 0 0;
+    text-decoration: none;
+}
+
+.secA {
+    padding: 0 0 24px !important;
+}
+
+.phone .t2 img{
+    height: 41px;
+    width: 55px;
+}
+
+.fullText {
+    text-align: center;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+    padding: 15px 16px;
+}
+.phone a{
+    padding: 24px 0;
+}
+.loveBottom {
+    width: 100%;
+}
+
+#img3dene {
+    width: 100%;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    padding: 0 20px;
+}
+
+
+.forYou {
+    flex-wrap: wrap;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.phones {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: auto;
+}
+
+.phone {
+    margin: 0 25px;
+}
+
+.phone h5 {
+    text-align: center;
+    padding: 5px 0 20px;
+    font: 1em Arial, Helvetica, sans-serif;
+    margin: 0 0 8px;
+}
+
+.imgPhone {
+    max-width: 180px;
+    height: 250px;
+}
+
+.imgPhone img {
+    width: 100%;
+    height: 250px;
+    margin: 10px 0;
+}
+
+.circle {
+    margin: 20px 0 30px;
+}
+
+.circle img {
+    width: 91px;
+}
+.largeCircle {
+    margin: 20px 0 9px !important;
+}
+.largeCircle img{
+    width: 91px;
+}
+
+#img2Phone {
+    background: url("../img/savei_phone.jpg") center/contain no-repeat;
+    height: 30vh;
+    width: 100%;
+    margin: 0 0 120px;
+}
+#imgSmile{
+    background: url("../img/save2.jpg") center/contain no-repeat;
+    height: 20vh;
+    width: 100%;
+}
+#imgDone{
+    background: url("../img/save3.jpg") bottom/contain no-repeat;
+    height: 30vh;
+    width: 100%;
+    margin: 0 0 90px;
+}
+.makePhone {
+    width: 100%;
+}
+
+.makePhone h2 {
+    font: bold 3em Arial, Helvetica, sans-serif;
+    margin: 0 0 8px;
+    padding: 30px 0;
+}
+
+.ios17 {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+
+.makePhone h5 {
+    font: 1.5em Arial, Helvetica, sans-serif;
+    padding: 0 20px;
+}
+
+.makePhone p {
+    font: 1em Arial, Helvetica, sans-serif;
+    margin: 0 0 16px;
+    text-align: center;
+}
+
+.ios17 h2{
+    font: bold 2.8em Arial, Helvetica, sans-serif;
+    margin: 0 0 8px;
+    padding: 48px 0 8px;
+}
+.ios17 p{
+    font: 1.2em Arial, Helvetica, sans-serif;
+    margin: 0 0 16px;
+}
+.ios17 a {
+    font: 1.2em Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+}
+
+.imgSuper {
+    background: url("../img/switching_to_iphone.jpg") 50% 50px/cover no-repeat;
+    margin-top: 120px;
+    height: 50vh;
+    width: 100%;
+}
+
+.imgPrivacy {
+    background: url("../img/privacy.jpg") 50% -100px/cover no-repeat;
+    margin-top: 120px;
+    height: 50vh;
+    width: 100%;
+}
+.twoCards {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin-top: 50px;
+    gap: 20px;
+    padding: 0 !important;
+}
+
+.super {
+    width: 100%;
+}
+.lastCard1{
+    margin: 20px 0;
+    height: 100%;
+    width: 100%;
+}
+.lastCard2{
+    margin: 20px 0;
+    width: 100%;
+    height: 100%;
+}
+.card1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    /* width: 50%; */
+    /* gap: 10px; */
+    height: 100%;
+    width: 100%;
+    background-color: #000;
+}
+.card2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0;
+    /* width: 50%; */
+    /* gap: 10px; */
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+}
+.super h2, .privacy h2{
+    font: bold 2.8em Arial, Helvetica, sans-serif;
+    margin: 0 0 8px;
+    padding: 48px 0 8px;
+    text-align: center;
+}
+.super a, .privacy a{
+    font: 1.2em Arial, Helvetica, sans-serif;
+}
+
+.privacy {
+    width: 100%;
+    height: 100%;
+}
+.whyApple h2{
+    font: bold 2.8em Arial, Helvetica, sans-serif;
+    padding: 30px;
+    margin: 0 0 8px;
+}
+.whyApple p{
+    font: 1.2em Arial, Helvetica, sans-serif;
+    padding:0 30px;
+    margin: 0 0 16px;
+}
+.whyApple a {
+    font: 1.2em Arial, Helvetica, sans-serif;
+    margin: 0 0 48px;
+}
+
+
+.phoneTop .phoneText, .iosTop .iosText{
+    display: flex;
+    flex-direction: column;
+    align-content: flex-start;
+    align-items: center;
+}
+
+.accessories {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 940px;
+}
+
+.accessories h2 {
+    font: 2em Arial, Helvetica, sans-serif;
+    padding: 30px 0;
+    margin: 0 0 8px;
+}
+
+.magSafe {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.airTag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.magic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 10px 0;
+    width: 100%;
+}
+
+.magSafe h2 {
+    font: 2em Arial, Helvetica, sans-serif;
+    padding: 24px 0;
+    margin: 0 0 8px;
+}
+
+.magSafe p,
+.airTag p,
+.magic p {
+    font: 1em Arial, Helvetica, sans-serif;
+    margin: 0 0 16px;
+    padding: 5px 30px;
+    text-align: center;
+}
+
+#imgMag {
+    background: url("../img/feature1.jpg") center/contain no-repeat;
+    height: 20vh;
+    width: 100%;
+}
+
+#imgTag {
+    background: url("../img/featured2.jpg") center/cover no-repeat;
+    height: 40vh;
+    width: 100%;
+}
+
+#imgAirpods {
+    background: url("../img/feature3.jpg") 100% -1px/contain no-repeat;
+    height: 20vh;
+    width: 100%;
+}
+
+.txtMag,
+.txtTag,
+.txtMagic {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.iPhone11 h5, .carier h5, .month h5{
+    text-align: center;
+    font: bold 1.5em Arial, Helvetica, sans-serif;
+    padding: 30px;
+}
+.iPhone11 a, .carier a, .month a{
+    text-align: center;
+    font: 1.12em Arial, Helvetica, sans-serif;
+    padding: 20px 0;
+}
+.carier p{
+    text-align: center;
+    font: 1em Arial, Helvetica, sans-serif;
+    margin: 0 0 180px;
+    color: #6E6E73;
+}
+.month p{
+    text-align: center;
+    font: 1em Arial, Helvetica, sans-serif;
+}
+.mainCard,.iPhone11, .carier, .month{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    margin-bottom: 30px;
+}
+.mainCard h5{
+    font: bold 1.25em Arial, Helvetica, sans-serif;
+    margin: 0 0 8px;
+}
+.mainCard p{
+    font: 1em Arial, Helvetica, sans-serif;
+    margin: 0 0 16px;
+}
+.mainCard a {
+    font: 1.2em Arial, Helvetica, sans-serif;
+    /* margin: 0 0 48px; */
+}
+.imgIcon{
+    width: 51px;
+    height: 75px;
+}
+.shop a{
+    font: 1.2em Arial, Helvetica, sans-serif;
+    margin: 0 0 48px;
+    padding: 24px 0 0;
+    
+}
+
+#imgApp{
+    background: url("../img/bundle__dlqe12erfzsm_large.jpg") center/contain no-repeat;
+    height: 180px;
+    margin-top: 30px;
+}
+#imgMore{
+    background: url("../img/apple_one__cq8ojsqxitea_large.jpg") center/contain no-repeat;
+    height: 30px;
+    width: 90px;
+    padding-top: 50px;
+}
+#imgTv{
+    background: url("../img/tv.png") center/cover no-repeat;
+    height: 50vh;
+    width: 100%;
+}
+#imgMusic{
+    background: url("../img/684x384\ \(9\).jpg") center/cover no-repeat;
+    height: 40vh;
+    width: 100%;
+    margin: 65px 0 35px 0;
+}
+#imgTvplus{
+    background: url("../img/apple_tv_plus_logo__gkj8brywycuq_small_2x.png") center/contain no-repeat;
+    height: 60px;
+    width: 120px;
+    margin: 48px 0 8px;
+}
+#imgFitness{
+    background: url("../img/update_promo_apple_fitness_iphone__762tbwjyo5ee_small.jpg") 50% -100px/cover no-repeat;
+    margin:0 0 30px 0;
+    height: 50vh;
+    width: 100%;
+}
+#imgArcade{
+    background: url("../img/Screenshot\ 2024-03-04\ 184214.png") 50% 150px/cover no-repeat;
+    margin:0 0 30px 0;
+    height: 50vh;
+    width: 100%;
+}
+#imgNews{
+    background: url("../img/apple_news_plus_tile_update_x__crr8y9ssslqq_small.jpg") 50% -130px/cover no-repeat;
+    margin:0 0 30px 0;
+    height: 50vh;
+    width: 100%;
+}
+#imgGiftCards{
+    background: url("../img/giftcard_tile__dartrujkircm_small_2x.jpg") center/cover no-repeat;
+    margin:0 0 150px 0;
+    height: 40vh;
+    width: 100%;
+}
+#imgResearch{
+    background: url("../img/apple-research__czkoifogwkeq_large.jpg") center/contain no-repeat;
+    height: 30vh;
+    width: 100%;
+    margin: 20px;
+}
+.oneMore {
+    margin: 10px 0;
+    width: 100%;
+}
+.oneMore p{
+    font: 1.4em Arial, Helvetica, sans-serif;
+    padding: 20px 0 10px 0;
+    text-align: center;
+}
+.txtMore a {
+    font: 1.2em Arial, Helvetica, sans-serif;
+    margin: 0 0 48px;
+}
+.txtMore h2{
+    font: 2.8em bold Arial Helvetica, sans-serif;
+    margin: 0 0 8px;
+    padding: 20px 0;
+    text-align: center;
+}
+.txtHead h2{
+    font: 2.8em bold Arial Helvetica, sans-serif;
+    margin: 0 0 8px;
+    padding: 30px 0;
+    text-align: center;
+}
+.card1 p, .card2 p{
+    font: 1em Arial, Helvetica, sans-serif;
+    margin: 0 0 16px;
+    text-align: center;
+}
+.card1 .linkA a, .card2 .linkA a{
+    font: .9em bold Arial Helvetica, sans-serif;
+    margin-bottom: 10px;
+}
+.iconApple{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    padding: 48px 0 8px;
+}
+.iconApple i{
+   font-size: 45px;
+   padding: 0 2px 6px;
+}
+.iconApple h2{
+    font: 2.8em Arial, Helvetica, sans-serif;
+    padding: 0 0 4px;
+    margin: 0;
+}
+
+.lastCard1 .linkA a, .lastCard2 .linkA a{
+    font: 1.12em bold Arial Helvetica, sans-serif;
+    margin:0 16px;
+}
+/* FOOTEEEEEEEEEERRRRRRRRRRRRRRRR
+FOOTEEEEEEEEEERRRRRRRRRRRRRRRR
+FOOTEEEEEEEEEERRRRRRRRRRRRRRRR
+FOOTEEEEEEEEEERRRRRRRRRRRRRRRR
+FOOTEEEEEEEEEERRRRRRRRRRRRRRRR */
+.footerTop {
+    font: .9em bold Arial Helvetica, sans-serif;
+    margin:0 0 16px;
+    color: #0000007a;
+}
+.footerLogo{
+    margin-bottom: 10px;
+}
+.line p{
+    border-top: 1px solid #0000007a;
+    margin-bottom: 10px;
+}
+.footerLogo a{
+    text-decoration: none;
+    font-size: 20px;
+    color: #000;
+    margin-right:  10px;
+}
+.footerLogo p,i{
+    font: .8rem bold Arial Helvetica, sans-serif;
+    color: #000000bd;
+    margin-right: 5px;
+}
+footer h6{
+    font: bold 1em Arial Helvetica, sans-serif;
+    margin:0 0 16px;
+}
+.footerDesktop{
+    display: none;
+}
+.footerDesktop ul li a{
+    font: .7em bold Arial Helvetica, sans-serif;
+    color: #000000b8;
+    text-decoration: none;
+}
+.footerDesktop ul{
+    list-style: none;
+    margin-top: 0;
+    margin-bottom: 1rem;
+    padding-left: 2rem;
+}
+.footerEnd p{
+    font: .8rem Arial Helvetica, sans-serif;
+    color: #000000bd;
+}
+
+
+
+
+
+@media screen and (min-width: 768px) {
+    /* HEADERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+HEADERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+HEADERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+HEADERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR
+HEADERRRRRRRRRRRRRRRRRRRRRRRRRRRRRRR */
+    .mainNav #menu1{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+    .mainNav #menu1 ul li{
+        list-style: none;
+        padding: 0 20px;
+    }
+    .mainNav #menu1 li a{
+        font-size: .75em;
+        cursor: pointer;
+        color: #000000cc;
+    }
+    .mainNav #menu1 ul{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        flex-wrap: wrap;
+    }
+.iconHeader{
+    display: block;
+}
+    .menuMob{
+        display: none;
+    }
+    .menuMobile1{
+        display: none;
+    }
+    
+    .Phoneshop .fia {
+        font: 1.3em bold Arial Helvetica, sans-serif;
+        text-align: center !important;
+    }
+    /* ...................... */
+    #phoneTit {
+        height: 70vh;
+        margin-top: -10%;
+        transform: rotate(-90deg) !important;
+        width: 100%;
+    }
+
+    .tourTop{
+        display: none;
+
+    }
+
+    .tourText {
+        text-align: start
+    }
+
+    .tourBottom {
+        height: 100vh;
+        border-radius: 35px;
+        background-color: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        display: flex;
+        justify-items: start;
+        align-items: center;
+    }
+
+    .tourBottom .tourText {
+        display: flex;
+        margin-left: 10%;
+    }
+
+    .tourText h2 {
+        font: 2em Arial, Helvetica, sans-serif;
+        color: #fff;
+        margin: 0 0 8px;
+    }
+
+    .tourText h6 {
+        font: 2em Arial, Helvetica, sans-serif;
+        margin: 0 0 8px;
+    }
+
+    .love {
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+    }
+
+    .loveTop {
+        width: 50%;
+    }
+
+    .loveBottom {
+        width: 50%;
+    }
+    .forYou {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 3rem;
+    }
+    .forYou h1{
+        font: 3em Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        margin: 0 0 8px;
+        padding: 30px 0;
+    }
+    .phone {
+        width: 20%;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .phones {
+        max-width: 1240px;
+        justify-content: center;
+        align-items: center;
+    }
+    .twoCards {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding: 0;
+    }
+
+    .phoneTop {
+        display: none !important;
+    }
+
+    .phoneText {
+        text-align: start
+    }
+    .phoneBottom .phoneText {
+        display: flex;
+        margin-left: 10%;
+    }
+    .phoneBottom {
+        height: 100vh;
+        width: 100%;
+        background-color: linear-gradient(rgba(0, 0, 0, 0), rgba(0, 0, 0, 0.5));
+        text-align: center;
+    }
+
+    .magSafe {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .airTag {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    .magic {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin: 10px 0;
+    }
+
+    #imgMag {
+        height: 70vh;
+        width: 50%;
+    }
+
+    #imgTag {
+        background-size: cover;
+        height: 80vh;
+        width: 50%;
+        order: -1;
+    }
+
+    #imgAirpods {
+        background-position: center;
+        height: 60vh;
+    }
+    .mainCard, .iPhone11, .carier, .month{
+        width: 50%;
+    }
+    .savePhone{
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        gap: 30px;
+    }
+   .rowShop{
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+   }
+   .iosTop {
+        display: none !important;
+    }
+
+    .iosText {
+        text-align: start
+    }
+
+    .iosBottom {
+        height: 80vh;
+        width: 100%;
+        background-color: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5));
+        text-align: center;
+    }
+
+    .iosBottom .iosText {
+        display: flex;
+    }
+    .oneMore {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+    }
+    #imgMore{
+        height: 40%;
+        width: 40%;
+    }
+    #imgApp {
+        height: 70vh;
+        width: 60%;
+       margin: 20px;
+    }
+    .imgResearch{
+        height: 70vh;
+        width: 50%;
+    }
+    /* foooterrrr */
+    .footerDesktop{
+        display: flex;
+        width: 100%;
+        justify-content: space-between;
+    }
+    .footerMobile{
+        display: none;
+    }
+    .footerMobile ul{
+        list-style: none !important;
+    }
+    .footerText{
+        display: flex;
+        justify-content: space-between;
+    }
+    
+}
